@@ -67,11 +67,7 @@ The main extensions are **MoE-LoRA prompt adaptation**, **retrieval–generation
 
 A frozen Qwen3-0.6B model produces the textual response. Multimodal retrieval should not be interpreted as direct image input to a vision-language generator: this version produces text using the available evidence descriptions and associated textual context.
 
-The detailed training recipe keeps the prototype extractors and generator frozen and specifies LayerNorm tuning in the CLIP backbone during the expert-training stage. See [reproducibility notes](docs/REPRODUCIBILITY.md) for the reported settings and details that still need an executable release specification.
-
 ## Results
-
-**All numbers below are reported in the revised TKDE manuscript. They have not been independently reproduced by this documentation release.** Table identifiers refer to that manuscript. Machine-readable transcriptions are provided in [results/](results/).
 
 ### Retrieval on SER
 
@@ -131,10 +127,14 @@ These results concern answer quality and educator ratings. They should not be in
 ## STEM Examples
 
 <p align="center">
-  <img src="https://github.com/rieSUMMER/TKDE-Uni-RAG/edit/main/README.md#:~:text=Figure2.png-,Figure3,-.png" width="100%">
+  <img src="https://github.com/rieSUMMER/TKDE-Uni-RAG/blob/main/images/Figure3.png#:~:text=Figure2.png-,Figure3,-.png" width="100%">
 </p>
 
-**Figure 3** illustrates retrieval and explanation examples involving a chemistry experiment, a line-following robot, a tower crane, and derivatives interpreted through tangent lines. These are qualitative examples from the manuscript, not outputs reproduced by a runnable demo in this release.
+</div>
+
+> Fig.3.illustrates retrieval and explanation examples involving a chemistry experiment, a line-following robot, a tower crane, and derivatives interpreted through tangent lines. These are qualitative examples from the manuscript, not outputs reproduced by a runnable demo in this release.
+
+
 
 ## Availability
 
@@ -152,8 +152,6 @@ These results concern answer quality and educator ratings. They should not be in
 This repository is currently a **documentation-and-results release**, not an installable implementation. The ACL repository is the predecessor implementation; it should not be treated as the complete Uni-RAG release.
 
 The intended implementation workflow is: prepare datasets → train the adapted retriever → cache evidence embeddings → retrieve relevant evidence → generate explanations → evaluate retrieval and generation separately. Validated installation commands and executable entry points should be published with the corresponding code and checkpoints.
-
-See [DATASETS.md](docs/DATASETS.md) and [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) for preparation requirements.
 
 ## Scope and Limitations
 
