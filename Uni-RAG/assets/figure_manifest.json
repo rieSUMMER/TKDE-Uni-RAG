@@ -1,0 +1,50 @@
+[
+  {
+    "file": "uni_rag_overview.png",
+    "source_figure": "Figure 1",
+    "source_page_1_based": 2,
+    "crop_points": [
+      47,
+      51,
+      558,
+      264
+    ],
+    "dpi": 300,
+    "pixels": [
+      2130,
+      888
+    ]
+  },
+  {
+    "file": "uni_rag_architecture.png",
+    "source_figure": "Figure 2",
+    "source_page_1_based": 4,
+    "crop_points": [
+      61,
+      56,
+      550,
+      323
+    ],
+    "dpi": 300,
+    "pixels": [
+      2038,
+      1113
+    ]
+  },
+  {
+    "file": "uni_rag_stem_examples.png",
+    "source_figure": "Figure 3",
+    "source_page_1_based": 9,
+    "crop_points": [
+      47,
+      168,
+      557,
+      430
+    ],
+    "dpi": 300,
+    "pixels": [
+      2126,
+      1092
+    ]
+  }
+]
