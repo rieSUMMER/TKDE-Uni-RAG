@@ -200,8 +200,4 @@ The first entry below identifies the **public 2025 preprint**, whose title uses 
 }
 ```
 
-See [CITATION.bib](CITATION.bib) and [CITATION.cff](CITATION.cff) for machine-readable citations. ACL author names follow the published paper PDF; a metadata discrepancy is documented in [source notes](docs/SOURCES.md).
 
-## Contact
-
-For research questions, contact **Xinyi Wu** at [summer.xywu@sjtu.edu.cn](mailto:summer.xywu@sjtu.edu.cn), **Yanhao Jia** at [yanhao002@e.ntu.edu.sg](mailto:yanhao002@e.ntu.edu.sg), or the corresponding author, **Shuai Zhao**, at [shuai.zhao@ntu.edu.sg](mailto:shuai.zhao@ntu.edu.sg).
