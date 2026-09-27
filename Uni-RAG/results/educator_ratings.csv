@@ -1,0 +1,4 @@
+manuscript_table,rated_answers,method,helpfulness_1_to_5,correctness_1_to_5,clarity_1_to_5,overall_as_reported_1_to_5
+XII,500,Closed-book Qwen3-0.6B,3.24,3.18,3.61,3.31
+XII,500,Vanilla RAG (CLIP + Qwen3),3.86,3.88,3.93,3.88
+XII,500,Uni-RAG,4.34,4.39,4.3,4.38

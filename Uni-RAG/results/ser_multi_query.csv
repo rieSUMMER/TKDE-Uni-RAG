@@ -1,0 +1,3 @@
+dataset,manuscript_table,method,text_to_image_r_at_1_percent,text_style_image_to_image_r_at_1_percent,image_to_text_r_at_1_percent,image_style_image_to_text_r_at_1_percent
+SER,VI,Uni-Retrieval,83.2,87.4,81.7,83.3
+SER,VI,Uni-RAG,84.1,88.7,82.1,84.5
