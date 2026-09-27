@@ -8,7 +8,6 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2507.03868-b31b1b.svg)](https://arxiv.org/abs/2507.03868)
 [![ACL 2025](https://img.shields.io/badge/Built%20on-Uni--Retrieval%20%28ACL%202025%29-blue)](https://github.com/CuriseJia/ACL25-Uni-Retrieval)
-![Release](https://img.shields.io/badge/Release-Documentation%20%26%20Results-orange)
 
 **Style-diverse queries → Multimodal evidence → Grounded STEM explanations**
 
@@ -16,9 +15,6 @@
 
 </div>
 
-<p align="center">
-  <img src="assets/uni_rag_overview.png" alt="Uni-RAG connects diverse STEM queries with retrieved evidence and educational explanations." width="100%">
-</p>
 
 > **Version and release status.** This initial repository release contains project documentation, manuscript figures, and paper-reported results. Uni-RAG-specific training/inference code, checkpoints, and generation-evaluation assets are not included yet. The linked arXiv paper is the **2025 early preprint**; the method details and tables below follow the **revised TKDE submission**, not a reproduction of the early preprint. 
 
@@ -49,6 +45,7 @@ The main extensions are **MoE-LoRA prompt adaptation**, **retrieval–generation
 <p align="center">
   <img src="assets/uni_rag_architecture.png" alt="Uni-RAG architecture with prototype learning, a MoE-LoRA Prompt Bank, cross-modal feature extraction, retrieval, and generation." width="100%">
 </p>
+
 
 **1. Query prototypes.** Image queries use VGG-Gram style features; text queries use a lightweight T5 encoder. In the reported experiments, audio is transcribed with Whisper and follows the text pathway. Modality-specific projections map prototypes into a shared 768-dimensional space.
 
