@@ -15,10 +15,11 @@
 
 </div>
 
-
 > **Version and release status.** This initial repository release contains project documentation, manuscript figures, and paper-reported results. Uni-RAG-specific training/inference code, checkpoints, and generation-evaluation assets are not included yet. The linked arXiv paper is the **2025 early preprint**; the method details and tables below follow the **revised TKDE submission**, not a reproduction of the early preprint. 
 
 ## Overview
+
+https://github.com/rieSUMMER/TKDE-Uni-RAG/blob/main/images/Figure1.png#:~:text=.DS_Store-,%E5%9B%BE,-1.png
 
 **Uni-RAG** is a style-aware multimodal retrieval-augmented generation framework for STEM education. It extends **Uni-Retrieval (ACL 2025)** from retrieving relevant educational resources to generating explanations, feedback, and instructional content grounded in retrieved evidence.
 
