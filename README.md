@@ -1,12 +1,8 @@
 <div align="center">
 
-# Uni-RAG
-
-### From Query to Explanation: Uni-RAG for Multimodal Retrieval-Augmented Learning in STEM
+# From Query to Explanation: Uni-RAG for Multimodal Retrieval-Augmented Learning in STEM
 
 **Xinyi Wu · Yanhao Jia · Luwei Xiao · Shuai Zhao · Fengkuang Chiang · Erik Cambria**
-
-Shanghai Jiao Tong University · Nanyang Technological University · National University of Singapore
 
 **Manuscript submitted to IEEE Transactions on Knowledge and Data Engineering (TKDE)**
 
@@ -24,7 +20,7 @@ Shanghai Jiao Tong University · Nanyang Technological University · National Un
   <img src="assets/uni_rag_overview.png" alt="Uni-RAG connects diverse STEM queries with retrieved evidence and educational explanations." width="100%">
 </p>
 
-> **Version and release status.** This initial repository release contains project documentation, manuscript figures, and paper-reported results. Uni-RAG-specific training/inference code, checkpoints, and generation-evaluation assets are not included yet. The linked arXiv paper is the **2025 early preprint**; the method details and tables below follow the **revised TKDE submission**, not a reproduction of the early preprint. Submission does not imply acceptance.
+> **Version and release status.** This initial repository release contains project documentation, manuscript figures, and paper-reported results. Uni-RAG-specific training/inference code, checkpoints, and generation-evaluation assets are not included yet. The linked arXiv paper is the **2025 early preprint**; the method details and tables below follow the **revised TKDE submission**, not a reproduction of the early preprint. 
 
 ## Overview
 
