@@ -23,7 +23,7 @@
 
 </div>
 
-> figure1.This advancement provides a scalable and precise solution for diverse educational needs. Previous retrieval models focus on text-query retrieval data or simple image-text retrieval. Our style-diversified retrieval setting accommodates the various query styles preferred by real educational content.
+> Fig.1.This advancement provides a scalable and precise solution for diverse educational needs. Previous retrieval models focus on text-query retrieval data or simple image-text retrieval. Our style-diversified retrieval setting accommodates the various query styles preferred by real educational content.
 
 **Uni-RAG** is a style-aware multimodal retrieval-augmented generation framework for STEM education. It extends **Uni-Retrieval (ACL 2025)** from retrieving relevant educational resources to generating explanations, feedback, and instructional content grounded in retrieved evidence.
 
@@ -47,11 +47,11 @@ The main extensions are **MoE-LoRA prompt adaptation**, **retrieval–generation
 
 ## Method
 
-<img src="https://github.com/rieSUMMER/TKDE-Uni-RAG/edit/main/README.md#:~:text=Figure2-,.,-png" width="100%" />​​ 
+<img src="https://github.com/rieSUMMER/TKDE-Uni-RAG/blob/main/images/Figure2.png#:~:text=Figure1.png-,Figure2,-.png" width="100%" />​​ 
 
 </div>
 
-> figure2.The Uni-RAG model’s architechture. Shared prompt tokens are extracted from the Prompt Bank and fed into the input of the feature encoder. Each entry in the Prompt Bank is associated with multiple experts, enabling the representation of diverse style features. After retrieving the top-k relevant items, Uni-RAG concatenates the system prompt with the retrieved content and passes it to the LLM to generate the final explanation for the query.
+> Fig.2.The Uni-RAG model’s architechture. Shared prompt tokens are extracted from the Prompt Bank and fed into the input of the feature encoder. Each entry in the Prompt Bank is associated with multiple experts, enabling the representation of diverse style features. After retrieving the top-k relevant items, Uni-RAG concatenates the system prompt with the retrieved content and passes it to the LLM to generate the final explanation for the query.
 
 **1. Query prototypes.** Image queries use VGG-Gram style features; text queries use a lightweight T5 encoder. In the reported experiments, audio is transcribed with Whisper and follows the text pathway. Modality-specific projections map prototypes into a shared 768-dimensional space.
 
